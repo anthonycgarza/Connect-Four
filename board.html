@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="board.css" />
+</head>
+<body>
+    <main>
+
+        <div id="game">
+
+            <h1>CONNECT 4</h1>
+
+            <table id="board"></table>
+
+            <div id="playerInfo">
+              <input type="text" id="p1-title" value="Player 1 Enter Name">
+              <div id="player1Display"></div>
+              <p id="vs">Vs</p>
+              <div id="player2Display"></div>
+              <input type="text" id="p2-title" value="Player 2 Enter Name">
+            </div>
+            
+            <div>
+                <button id="computer" onclick="isComputer()">Play vs Computer</button>
+            </div>
+
+            <div id="reset" >
+              <p>RESET GAME</p>
+            </div>
+            
+          </div>
+
+    </main>
+    <script src="board.js"></script>
+</body>
+</html>
